@@ -124,7 +124,7 @@
     .clans {}
     @for $i from 1 through 20 {
         .item:nth-child(#{$i}) {
-            opacity: 1 - ($i * 4)/100;
+            opacity: 1 - calc(($i * 4) / 100);
         }
         .item {
             font-size: 13px;
