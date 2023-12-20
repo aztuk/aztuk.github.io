@@ -1,0 +1,13 @@
+name: Deploy subtree
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-subtree:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy api to Heroku
+      run: |
+        git subtree push --prefix dist/northgard-clan-finder/browser origin gh-pages
