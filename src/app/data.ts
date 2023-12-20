@@ -2,15 +2,15 @@ export let QUESTIONS = [{
   question: 'Clearing',
   answers: [
     {
-      text: 'I love when someone comes to clear me',
+      text: 'Im selfish, let others do it',
       points: 0
     },
     {
-      text: 'I like being independent and not rely on someone else to be cleared',
+      text: 'FINE, ill clear myself',
       points: 2
     },
     {
-      text: 'I like farming mobs',
+      text: 'Im altruist, ill do it for everyone',
       points: 4
     }
   ],
@@ -30,7 +30,7 @@ export let QUESTIONS = [{
     squirrel: 0,
     rat: 3,
     eagle: 4,
-    lion: 1,
+    lion: 3,
     stoat: 1,
     owl: 0,
   }
@@ -38,19 +38,19 @@ export let QUESTIONS = [{
   question: 'Fighting micro-management',
   answers: [
     {
-      text: 'I just send them to a strategic position and wait for the battle to end',
+      text: 'I just click on the zone and pray',
       points: 0
     },
     {
-      text: 'I select all my army and target key units to kill the biggest threats ',
+      text: 'I focus the biggest threats',
       points: 1
     },
     {
-      text: 'All of the above and i also use hit&run mechanic',
+      text: 'Hit and run baby',
       points: 2
     },
     {
-      text: 'I like to use a combination of multiple unit types and micro manage their target and position',
+      text: 'I can easily have 310 APM during fights',
       points: 3
     }
   ],
@@ -71,26 +71,26 @@ export let QUESTIONS = [{
     rat: 1,
     eagle: 3,
     lion: 0,
-    stoat: 1,
+    stoat: 2,
     owl: 1,
   }
 },{
   question: 'Keybindings',
   answers: [
     {
-      text: 'Except from WASD, i do everything with mouse',
+      text: 'Why keyboard when mouse can do the trick?',
       points: 0
     },
     {
-      text: 'I use the most common keybindings to select units (e for army, h for scouts, g for villagers ...)',
+      text: 'Yes, E, G, H, X ... the easy ones',
       points: 1
     },
     {
-      text: 'I like to assign 1 or 2 custom groups micro manage specific units',
+      text: 'Group 1 for warchief, group 2 for army',
       points: 2
     },
     {
-      text: 'I have a minimum of 4 custom groups every game',
+      text: 'I need a second keyboard to play at my max potential',
       points: 3
     }
   ],
@@ -111,14 +111,14 @@ export let QUESTIONS = [{
     rat: 0,
     eagle: 2,
     lion: 0,
-    stoat: 0,
+    stoat: 3,
     owl: 0,
   }
 },{
   question: 'Tactics',
   answers: [
     {
-      text: 'I hate having to think about complex tactical positionning',
+      text: 'Chill is fun too, you know',
       points: 0
     },
     {
@@ -126,7 +126,7 @@ export let QUESTIONS = [{
       points: 2
     },
     {
-      text: 'I love having tools to trap enemies and finish the game with tactical moves',
+      text: 'I like finding checkmate like moves',
       points: 4
     }
   ],
@@ -146,27 +146,27 @@ export let QUESTIONS = [{
     squirrel: 0,
     rat: 2,
     eagle: 3,
-    lion: 2,
-    stoat: 2,
+    lion: 1,
+    stoat: 1,
     owl: 3,
   }
 },{
-  question: 'Resource management',
+  question: 'Pandemic management of your villagers',
   answers: [
     {
-      text: 'I am confortable with being on the edge of having sick villagers',
+      text: 'I play on the edge of sickness, but vaccinated',
       points: 0
     },
     {
-      text: 'I cheese as much as i can but do not calculate well everytime',
+      text: 'I get rarely sick when i cheese food or wood',
       points: 1
     },
     {
-      text: 'When i try to do it, my people get sick often',
+      text: 'When I fuck around, i usually find out',
       points: 2
     },
     {
-      text: 'I prefer having a huge food and wood stock and be never negative in production',
+      text: 'I want to have enough resources to end world hunger',
       points: 3
     }
   ],
@@ -187,22 +187,22 @@ export let QUESTIONS = [{
     rat: 0,
     eagle: 0,
     lion: 2,
-    stoat: 2,
+    stoat: 1,
     owl: 2,
   }
 },{
   question: 'Military presence',
   answers: [
     {
-      text: 'I hate having to make army in 801',
+      text: 'No army in 801',
       points: 0
     },
     {
-      text: 'I dont mind making an army but would prefer to scale before',
+      text: 'Scale a bit, then fight',
       points: 1
     },
     {
-      text: 'I really dont mind making some units or warchief to assist harrass/defend',
+      text: 'I like to help with chief early',
       points: 2
     },
     {
@@ -226,23 +226,23 @@ export let QUESTIONS = [{
     squirrel: 0,
     rat: 1,
     eagle: 3,
-    lion: 1,
+    lion: 2,
     stoat: 1,
     owl: 1,
   }
 },{
-  question: 'Vision',
+  question: 'I want to scout...',
   answers: [
     {
-      text: 'I prefer scouting only my first surrounding tiles',
+      text: 'Only T1 (first ring around townhall)',
       points: 0
     },
     {
-      text: 'I like to scout further out, like the connexion tile and some tier 2 tiles',
+      text: 'T1 and T2',
       points: 1
     },
     {
-      text: 'I think scouting deep and spying is crucial',
+      text: 'Deep until enemy and spy a bit',
       points: 2
     },
     {
@@ -302,7 +302,7 @@ export let QUESTIONS = [{
     squirrel: 3,
     rat: 3,
     eagle: 1,
-    lion: 2,
+    lion: 3,
     stoat: 2,
     owl: 2,
   }
@@ -310,15 +310,15 @@ export let QUESTIONS = [{
   question: 'Eco-boosting your allies',
   answers: [
     {
-      text: 'I hate having to eco boost my team',
+      text: 'THEY should boost ME',
       points: 0
     },
     {
-      text: 'I dont mind boosting the eco if someone asks me to',
+      text: 'Ok, once in a while',
       points: 2
     },
     {
-      text: 'I like to be in charge of the team eco boosts',
+      text: 'Im their b**ch',
       points: 4
     }
   ],
@@ -338,12 +338,12 @@ export let QUESTIONS = [{
     squirrel: 4,
     rat: 0,
     eagle: 1,
-    lion: 3,
+    lion: 2,
     stoat: 4,
     owl: 3,
   }
 },{
-  question: 'Would you like playing a clan that would be able to give various bonuses to your allies without hurting your economy?',
+  question: 'Do you like making your allies stronger (eco, military, ...)?',
   answers: [
     {
       text: 'Not a fan',
@@ -386,7 +386,7 @@ export let QUESTIONS = [{
   question: 'Passive wins (lore, fame, trade, clan specific)',
   answers: [
     {
-      text: 'I ignore those',
+      text: 'Pfff, im an ACTIVE',
       points: 0
     },
     {
@@ -423,7 +423,7 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'What type of city building do you like?',
+  question: 'Are you more tall or wide?',
   answers: [
     {
       text: 'Tall: few key buildings but each produce a lot',
@@ -458,55 +458,15 @@ export let QUESTIONS = [{
   question: 'Aggressivity',
   answers: [
     {
-      text: 'I prefer being defensive',
+      text: 'Gandhi, slap me first',
       points: 0
     },
     {
-      text: 'I could participate with others in small harrassment moves if asked by allies',
-      points: 1
-    },
-    {
-      text: 'I like to harrass the opponent with annoying mechanics',
+      text: 'Moskito, annoying but not deadly',
       points: 2
     },
     {
-      text: 'I want to make my opponent cry',
-      points: 3
-    }
-  ],
-  clans: {
-    wolf: 2,
-    stag: 1,
-    goat: 1,
-    raven: 2,
-    bear: 0,
-    boar: 0,
-    snake: 3,
-    dragon: 2,
-    horse: 0,
-    kraken: 2,
-    ox: 2,
-    lynx: 2,
-    squirrel: 0,
-    rat: 1,
-    eagle: 2,
-    lion: 0,
-    stoat: 0,
-    owl: 1,
-  }
-},{
-  question: 'PVE and events',
-  answers: [
-    {
-      text: 'I prefer clans that are less sensitive to PVE and events',
-      points: 0
-    },
-    {
-      text: 'Its part of the game, it will not affect my enjoyment',
-      points: 2
-    },
-    {
-      text: 'I like clans that can benefit from PVE and events',
+      text: 'Kardashian, I want to make my opponent cry',
       points: 4
     }
   ],
@@ -514,31 +474,67 @@ export let QUESTIONS = [{
     wolf: 4,
     stag: 0,
     goat: 0,
-    raven: 1,
-    bear: 3,
-    boar: 2,
-    snake: 3,
+    raven: 3,
+    bear: 0,
+    boar: 0,
+    snake: 4,
     dragon: 2,
     horse: 0,
-    kraken: 1,
+    kraken: 3,
     ox: 1,
     lynx: 4,
     squirrel: 0,
-    rat: 3,
+    rat: 2,
     eagle: 4,
-    lion: 1,
-    stoat: 2,
+    lion: 2,
+    stoat: 0,
     owl: 1,
   }
 },{
-  question: 'Shoutcalling',
+  question: 'What is your relations with neutral factions?',
+  answers: [
+    {
+      text: 'They good when they dead',
+      points: 0
+    },
+    {
+      text: 'They are part of the decoration',
+      points: 2
+    },
+    {
+      text: 'I enjoy tea party with them',
+      points: 4
+    }
+  ],
+  clans: {
+    wolf: 0,
+    stag: 1,
+    goat: 3,
+    raven: 3,
+    bear: 2,
+    boar: 3,
+    snake: 3,
+    dragon: 1,
+    horse: 1,
+    kraken: 4,
+    ox: 3,
+    lynx: 1,
+    squirrel: 3,
+    rat: 0,
+    eagle: 1,
+    lion: 1,
+    stoat: 2,
+    owl: 4,
+  }
+},{
+  question: 'What about map awareness and strategy?',
   answers: [
     {
       text: 'I prefer people telling me what to do',
       points: 0
     },
     {
-      text: 'I like to have time thinking about the next team move',
+      text: 'Im a leader, i give orders they should follow',
       points: 4
     }
   ],
@@ -559,18 +555,18 @@ export let QUESTIONS = [{
     rat: 1,
     eagle: 0,
     lion: 3,
-    stoat: 4,
+    stoat: 2,
     owl: 2,
   }
 },{
-  question: 'Carry',
+  question: 'Do you prefer peeling or crushing?',
   answers: [
     {
-      text: 'I am more of a peeler, weakening the opponent ability to create or sustain an army',
+      text: 'Peeler, weakening the opponent ability to create or sustain an army',
       points: 0
     },
     {
-      text: 'I am more of a carry, coming to give the final blow',
+      text: 'Carry, I come to give the final blow',
       points: 4
     }
   ],
@@ -598,15 +594,15 @@ export let QUESTIONS = [{
   question: 'Build orders',
   answers: [
     {
-      text: 'I like following the same build orders in every game',
+      text: 'Metaslave: I follow THE recipe',
       points: 0
     },
     {
-      text: 'I have some build orders depending on my spawn tiles',
+      text: 'I dont mind having 1 or 2 builds depending on the start',
       points: 2
     },
     {
-      text: 'I like to have all options open when starting a game',
+      text: 'I prefer flexibility',
       points: 4
     }
   ],
@@ -626,8 +622,8 @@ export let QUESTIONS = [{
     squirrel: 2,
     rat: 2,
     eagle: 1,
-    lion: 4,
-    stoat: 3,
+    lion: 2,
+    stoat: 4,
     owl: 4,
   }
 },{
@@ -742,7 +738,7 @@ export let QUESTIONS = [{
     squirrel: 1,
     rat: 3,
     eagle: 1,
-    lion: 3,
+    lion: 1,
     stoat: 3,
     owl: 4,
   }

@@ -1,6 +1,6 @@
-<div class="wrapper" [class.ended]="ended">
+<div class="wrapper">
 
-
+    @if(!ended) {
     <div class="question-wrapper">
         <div class="question">{{currentQuestion.question}}</div>
         <div class="answers">
@@ -15,6 +15,8 @@
             </div>
         </div>
     </div>
+
+    } @else {
     <div class="score">
         <div class="title">Final result</div>
         <div class="clans">
@@ -25,6 +27,9 @@
             } @empty { none }
         </div>
     </div>
+
+
+    }
 
 
 </div>
