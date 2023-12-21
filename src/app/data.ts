@@ -6,8 +6,16 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'I dont want to care about clearing',
+      points: 1
+    },
+    {
       text: 'FINE, ill clear myself',
       points: 2
+    },
+    {
+      text: 'Lets clear a bit but not a lot',
+      points: 3
     },
     {
       text: 'Im altruist, ill do it for everyone',
@@ -95,7 +103,7 @@ export let QUESTIONS = [{
     }
   ],
   clans: {
-    wolf: 2,
+    wolf: 3,
     stag: 0,
     goat: 0,
     raven: 2,
@@ -109,7 +117,7 @@ export let QUESTIONS = [{
     lynx: 3,
     squirrel: 0,
     rat: 0,
-    eagle: 2,
+    eagle: 3,
     lion: 0,
     stoat: 3,
     owl: 0,
@@ -122,8 +130,16 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'Good bordering is enough',
+      points: 1
+    },
+    {
       text: 'I like creating surprise flanks, forcing enemy to reposition',
       points: 2
+    },
+    {
+      text: 'A tile block here and there',
+      points: 3
     },
     {
       text: 'I like finding checkmate like moves',
@@ -278,8 +294,16 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'Mostly multiplayer',
+      points: 1
+    },
+    {
       text: 'Single player coop',
       points: 2
+    },
+    {
+      text: 'Mostly solo',
+      points: 3
     },
     {
       text: 'Singleplayer',
@@ -314,8 +338,16 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'If the planets align',
+      points: 1
+    },
+    {
       text: 'Ok, once in a while',
       points: 2
+    },
+    {
+      text: 'Except if one of them has a good start',
+      points: 3
     },
     {
       text: 'Im their b**ch',
@@ -431,28 +463,28 @@ export let QUESTIONS = [{
     },
     {
       text: 'Wide: a lot of buildings producing a small amount',
-      points: 6
+      points: 4
     }
   ],
   clans: {
-    wolf: 3,
-    stag: 5,
-    goat: 5,
-    raven: 2,
-    bear: 1,
-    boar: 6,
-    snake: 2,
-    dragon: 2,
+    wolf: 4,
+    stag: 4,
+    goat: 4,
+    raven: 0,
+    bear: 0,
+    boar: 4,
+    snake: 0,
+    dragon: 0,
     horse: 4,
-    kraken: 2,
-    ox: 5,
-    lynx: 1,
+    kraken: 4,
+    ox: 4,
+    lynx: 0,
     squirrel: 4,
-    rat: 2,
-    eagle: 3,
+    rat: 0,
+    eagle: 0,
     lion: 0,
     stoat: 0,
-    owl: 1,
+    owl: 0,
   }
 },{
   question: 'Aggressivity',
@@ -621,7 +653,7 @@ export let QUESTIONS = [{
     lynx: 1,
     squirrel: 2,
     rat: 2,
-    eagle: 1,
+    eagle: 4,
     lion: 2,
     stoat: 4,
     owl: 4,
