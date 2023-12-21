@@ -487,15 +487,23 @@ export let QUESTIONS = [{
     owl: 0,
   }
 },{
-  question: 'Aggressivity',
+  question: 'Your aggressivity is more like...',
   answers: [
     {
       text: 'Gandhi, slap me first',
       points: 0
     },
     {
-      text: 'Moskito, annoying but not deadly',
+      text: 'Your cat, he will attack at some point, you know it',
+      points: 1
+    },
+    {
+      text: 'A Moskito, annoying but not deadly',
       points: 2
+    },
+    {
+      text: 'My wife, when i forgot the kids at school',
+      points: 3
     },
     {
       text: 'Kardashian, I want to make my opponent cry',
@@ -530,8 +538,16 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'Nice bonus killing them',
+      points: 1
+    },
+    {
       text: 'They are part of the decoration',
       points: 2
+    },
+    {
+      text: 'I can see some use in them',
+      points: 3
     },
     {
       text: 'I enjoy tea party with them',
@@ -566,72 +582,96 @@ export let QUESTIONS = [{
       points: 0
     },
     {
-      text: 'Im a leader, i give orders they should follow',
-      points: 4
-    }
-  ],
-  clans: {
-    wolf: 0,
-    stag: 3,
-    goat: 4,
-    raven: 3,
-    bear: 1,
-    boar: 2,
-    snake: 1,
-    dragon: 1,
-    horse: 3,
-    kraken: 3,
-    ox: 3,
-    lynx: 0,
-    squirrel: 4,
-    rat: 1,
-    eagle: 0,
-    lion: 3,
-    stoat: 2,
-    owl: 2,
-  }
-},{
-  question: 'Do you prefer peeling or crushing?',
-  answers: [
-    {
-      text: 'Peeler, weakening the opponent ability to create or sustain an army',
-      points: 0
+      text: 'I call objectives without confidence',
+      points: 1
     },
     {
-      text: 'Carry, I come to give the final blow',
-      points: 4
+      text: 'I have pretty good ideas sometimes',
+      points: 2
+    },
+    {
+      text: 'Im a leader, i give orders they should follow',
+      points: 3
     }
   ],
   clans: {
-    wolf: 1,
-    stag: 4,
-    goat: 2,
-    raven: 2,
+    wolf: 2,
+    stag: 3,
+    goat: 4,
+    raven: 4,
     bear: 1,
-    boar: 2,
-    snake: 3,
-    dragon: 4,
-    horse: 4,
-    kraken: 4,
+    boar: 4,
+    snake: 0,
+    dragon: 1,
+    horse: 2,
+    kraken: 2,
     ox: 3,
-    lynx: 1,
-    squirrel: 1,
-    rat: 3,
+    lynx: 0,
+    squirrel: 3,
+    rat: 0,
     eagle: 0,
-    lion: 4,
+    lion: 1,
+    stoat: 3,
+    owl: 1,
+  }
+},{
+  question: 'How do you describe your game style?',
+  answers: [
+    {
+      text: 'PEELER, weakening the opponent ability to create or sustain an army',
+      points: 2
+    },
+    {
+      text: 'LOGISTICIAN, giving tools to teammate to win for you',
+      points: 3
+    },
+    {
+      text: 'TACTICIAN, forcing enemy movements',
+      points: 4
+    },
+    {
+      text: 'CARRY, I come to give the final blow',
+      points: 5
+    }
+  ],
+  clans: {
+    wolf: 4,
+    stag: 5,
+    goat: 3,
+    raven: 4,
+    bear: 3,
+    boar: 3,
+    snake: 4,
+    dragon: 5,
+    horse: 5,
+    kraken: 5,
+    ox: 5,
+    lynx: 3,
+    squirrel: 3,
+    rat: 2,
+    eagle: 2,
+    lion: 5,
     stoat: 3,
     owl: 3,
   }
 },{
-  question: 'Build orders',
+  question: 'Do you want build orders?',
   answers: [
     {
       text: 'Metaslave: I follow THE recipe',
       points: 0
     },
     {
+      text: 'Same build with slight variations',
+      points: 1
+    },
+    {
       text: 'I dont mind having 1 or 2 builds depending on the start',
       points: 2
+    },
+    {
+      text: 'Adapt and overcome',
+      points: 3
     },
     {
       text: 'I prefer flexibility',
@@ -710,8 +750,12 @@ export let QUESTIONS = [{
   question: 'Relics',
   answers: [
     {
-      text: 'I ignore every relic, every game',
+      text: 'Too tedious to make, too greedy',
       points: 0
+    },
+    {
+      text: 'I could make it in rare occasions',
+      points: 1
     },
     {
       text: 'I like relics as a bonus',
@@ -719,28 +763,28 @@ export let QUESTIONS = [{
     },
     {
       text: 'I like very powerful relics',
-      points: 4
+      points: 3
     }
   ],
   clans: {
     wolf: 1,
-    stag: 3,
+    stag: 2,
     goat: 1,
     raven: 0,
     bear: 1,
     boar: 1,
     snake: 0,
     dragon: 2,
-    horse: 4,
+    horse: 3,
     kraken: 0,
-    ox: 4,
+    ox: 3,
     lynx: 0,
     squirrel: 1,
     rat: 0,
     eagle: 1,
-    lion: 3,
-    stoat: 3,
-    owl: 4,
+    lion: 2,
+    stoat: 2,
+    owl: 3,
   }
 },{
   question: 'Diplomacy',
@@ -750,28 +794,32 @@ export let QUESTIONS = [{
       points: 0
     },
     {
+      text: 'Lets split the task',
+      points: 1
+    },
+    {
       text: 'I would like others to come to my townhall and grind it',
-      points: 4
+      points: 2
     }
   ],
   clans: {
-    wolf: 4,
+    wolf: 2,
     stag: 0,
     goat: 0,
     raven: 0,
-    bear: 2,
+    bear: 1,
     boar: 1,
-    snake: 2,
-    dragon: 2,
-    horse: 2,
-    kraken: 3,
+    snake: 1,
+    dragon: 1,
+    horse: 1,
+    kraken: 1,
     ox: 1,
-    lynx: 4,
+    lynx: 2,
     squirrel: 1,
-    rat: 3,
+    rat: 2,
     eagle: 1,
     lion: 1,
-    stoat: 3,
-    owl: 4,
+    stoat: 2,
+    owl: 2,
   }
 }]
