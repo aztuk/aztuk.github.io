@@ -822,4 +822,84 @@ export let QUESTIONS = [{
     stoat: 2,
     owl: 2,
   }
+},{
+  question: 'Clan style preference - economy',
+  answers: [
+    {
+      text: 'Can reach 30+ villagers every game',
+      points: 1
+    },
+    {
+      text: 'Balanced is good',
+      points: 2
+    },
+    {
+      text: 'Quality above all',
+      points: 3
+    },
+    {
+      text: 'Rely on other income (passive, farming, etc...)',
+      points: 4
+    }
+  ],
+  clans: {
+    wolf: 4,
+    stag: 2,
+    goat: 2,
+    raven: 3,
+    bear: 2,
+    boar: 1,
+    snake: 4,
+    dragon: 2,
+    horse: 2,
+    kraken: 2,
+    ox: 3,
+    lynx: 3,
+    squirrel: 1,
+    rat: 1,
+    eagle: 4,
+    lion: 2,
+    stoat: 1,
+    owl: 3,
+  }
+},{
+  question: 'Clan style preference - military',
+  answers: [
+    {
+      text: 'The swarm',
+      points: 1
+    },
+    {
+      text: 'Balanced is good',
+      points: 2
+    },
+    {
+      text: 'Balanced army with some perks',
+      points: 3
+    },
+    {
+      text: 'Quality above all',
+      points: 4
+    }
+  ],
+  clans: {
+    wolf: 4,
+    stag: 1,
+    goat: 2,
+    raven: 2,
+    bear: 4,
+    boar: 1,
+    snake: 3,
+    dragon: 3,
+    horse: 3,
+    kraken: 1,
+    ox: 4,
+    lynx: 4,
+    squirrel: 1,
+    rat: 1,
+    eagle: 3,
+    lion: 1,
+    stoat: 1,
+    owl: 3,
+  }
 }]
