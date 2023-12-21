@@ -107,7 +107,8 @@
         font-family: "Brother";
         margin-bottom: 24px;
         color: rgb(119, 255, 203);
-        text-align: center;
+        text-align: left;
+        width: 100%;
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 600ms all;
     }
     position: relative;
@@ -120,13 +121,67 @@
         .item {
             min-width: 220px;
         }
+        .links {
+            display: flex !important;
+        }
     }
     .clans {}
+    .clan {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        .links {
+            display: none;
+            align-items: center;
+            margin-left: 16px;
+            .link-item {
+                background-image: url('../../../assets/images/yt.png');
+                height: 18px;
+                margin-left: 12px;
+                background-size: contain;
+                display: block;
+                color: #bac2cf;
+                background-repeat: no-repeat;
+                padding-left: 24px;
+                text-decoration: none;
+                font-size: 12px;
+                background-position: left center;
+            }
+        }
+        &:first-child .item {
+            background: rgb(119 255 203 / 84%);
+            box-shadow: 0 0 12px rgb(119, 255, 203);
+            border: 1px solid rgb(119, 255, 203);
+            color: black;
+            font-weight: bold;
+            height: 32px;
+            border-radius: 16px;
+        }
+        &:nth-child(2) .item {
+            background: rgb(119 229 255 / 84%);
+            box-shadow: 0 0 12px rgb(119, 229, 255);
+            border: 1px solid rgb(119, 229, 255);
+            color: black;
+            font-weight: bold;
+            height: 32px;
+            border-radius: 16px;
+        }
+        &:nth-child(3) .item {
+            background: rgba(119, 173, 255, 0.84);
+            box-shadow: 0 0 12px rgb(119, 173, 255);
+            border: 1px solid rgb(119, 173, 255);
+            color: black;
+            font-weight: bold;
+            height: 32px;
+            border-radius: 16px;
+        }
+    }
     @for $i from 1 through 20 {
-        .item:nth-child(#{$i}) {
+        .clan:nth-child(#{$i}) {
             opacity: 1 - calc(($i * 4) / 100);
         }
         .item {
+            min-width: 220px;
             font-size: 13px;
             display: flex;
             align-items: center;
@@ -135,34 +190,6 @@
             background: #727dc011;
             border-radius: 12px;
             padding: 0 12px;
-            margin-bottom: 8px;
-            &:first-child {
-                background: rgb(119 255 203 / 84%);
-                box-shadow: 0 0 12px rgb(119, 255, 203);
-                border: 1px solid rgb(119, 255, 203);
-                color: black;
-                font-weight: bold;
-                height: 32px;
-                border-radius: 16px;
-            }
-            &:nth-child(2) {
-                background: rgb(119 229 255 / 84%);
-                box-shadow: 0 0 12px rgb(119, 229, 255);
-                border: 1px solid rgb(119, 229, 255);
-                color: black;
-                font-weight: bold;
-                height: 32px;
-                border-radius: 16px;
-            }
-            &:nth-child(3) {
-                background: rgba(119, 173, 255, 0.84);
-                box-shadow: 0 0 12px rgb(119, 173, 255);
-                border: 1px solid rgb(119, 173, 255);
-                color: black;
-                font-weight: bold;
-                height: 32px;
-                border-radius: 16px;
-            }
             .clan-name {
                 margin-right: 8px;
                 &::first-letter {

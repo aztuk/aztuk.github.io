@@ -20,16 +20,24 @@
     <div class="score">
         <div class="title">Final result</div>
         <div class="clans">
-            @for (clan of sortClans(clanScore); track clan) {
-
-            <div class="item"><span class="clan-name">{{clan.name}}</span> {{clan.score}} pts
+            @for (clan of sortClans(clanScore); track clan; let index = $index) {
+            <div class="clan">
+                <div class="item"><span class="clan-name">{{clan.name}}</span> {{clan.score}} pts
+                </div>
+                @if(index
+                < 2) { <div class="links">
+                    @for (link of clan.links; track link) {
+                    <a class="link-item" target="_blank" href="{{link.url}}">{{link.text}}</a> }
             </div>
-            } @empty { none }
+
+            }
         </div>
+        } @empty { none }
     </div>
+</div>
 
 
-    }
+}
 
 
 </div>
