@@ -826,40 +826,40 @@ export let QUESTIONS = [{
   question: 'Clan style preference - economy',
   answers: [
     {
-      text: 'Can reach 30+ villagers every game',
+      text: 'Large population',
       points: 1
     },
     {
-      text: 'Balanced is good',
+      text: 'Tile optimization',
       points: 2
     },
     {
-      text: 'Quality above all',
+      text: 'Low investment production',
       points: 3
     },
     {
-      text: 'Rely on other income (passive, farming, etc...)',
+      text: 'Scavenging the map',
       points: 4
-    }
+    },
   ],
   clans: {
     wolf: 4,
-    stag: 2,
-    goat: 2,
-    raven: 3,
+    stag: 1,
+    goat: 3,
+    raven: 4,
     bear: 2,
     boar: 1,
     snake: 4,
     dragon: 2,
-    horse: 2,
-    kraken: 2,
+    horse: 3,
+    kraken: 3,
     ox: 3,
     lynx: 3,
     squirrel: 1,
     rat: 1,
     eagle: 4,
-    lion: 2,
-    stoat: 1,
+    lion: 3,
+    stoat: 3,
     owl: 3,
   }
 },{
